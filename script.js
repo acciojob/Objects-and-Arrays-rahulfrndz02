@@ -9,12 +9,12 @@ const person = {
 
 const team = players;
 const team1 = [];
+
 for(let i=0; i<players.length; i++){
 	team1.push(players[i]);
 }
 const cap1 = JSON.parse(JSON.stringify(person));
 
-const cap1 = person();
 
 
 window.players = players;
