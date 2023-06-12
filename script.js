@@ -8,7 +8,11 @@ const person = {
 // Write your code here, make sure the name of variables is exactly same as mentioned in the problem statement
 
 const team = players;
-const team1 = players;
+const team1 = [];
+for(let i=0; i<players.length; i++){
+	team1.push(players[i]);
+}
+const cap1 = JSON.parse(JSON.stringify(person));
 
 const cap1 = person();
 
