@@ -13,6 +13,7 @@ const team1 = [];
 for(let i=0; i<players.length; i++){
 	team1.push(players[i]);
 }
+//using typecast and converting into string
 const cap1 = JSON.parse(JSON.stringify(person));
 
 
